@@ -1,0 +1,121 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+
+  <!-- pixel-banded bright blue sky -->
+  <rect x="0" y="0"   width="900" height="44" fill="#5fb8f0"/>
+  <rect x="0" y="44"  width="900" height="44" fill="#7cc6f4"/>
+  <rect x="0" y="88"  width="900" height="44" fill="#9dd6f7"/>
+  <rect x="0" y="132" width="900" height="63" fill="#c3e8fb"/>
+
+  <!-- sun -->
+  <g fill="#fff2a8">
+    <rect x="770" y="22" width="56" height="56"/>
+  </g>
+  <g fill="#ffe066">
+    <rect x="776" y="16" width="44" height="68"/>
+  </g>
+  <g fill="#ffd23f">
+    <rect x="782" y="10" width="32" height="80"/>
+  </g>
+
+  <!-- drifting clouds -->
+  <g fill="#ffffff" opacity="0.95">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0;18,0;0,0" dur="9s" repeatCount="indefinite"/>
+      <rect x="60" y="40" width="16" height="8"/><rect x="76" y="36" width="16" height="8"/><rect x="92" y="40" width="16" height="8"/><rect x="68" y="48" width="40" height="6"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0;-22,0;0,0" dur="11s" repeatCount="indefinite"/>
+      <rect x="440" y="26" width="14" height="7"/><rect x="454" y="22" width="14" height="7"/><rect x="468" y="26" width="14" height="7"/><rect x="448" y="33" width="34" height="5"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0;14,0;0,0" dur="7.5s" repeatCount="indefinite"/>
+      <rect x="640" y="60" width="14" height="7"/><rect x="654" y="56" width="14" height="7"/><rect x="668" y="60" width="14" height="7"/><rect x="646" y="67" width="34" height="5"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0;-16,0;0,0" dur="8.5s" repeatCount="indefinite"/>
+      <rect x="200" y="70" width="14" height="7"/><rect x="214" y="66" width="14" height="7"/><rect x="228" y="70" width="14" height="7"/><rect x="206" y="77" width="34" height="5"/>
+    </g>
+  </g>
+
+  <!-- back mountain range (lighter green, farther) -->
+  <polygon points="0,195 0,150 60,110 130,150 190,90 260,150 330,120 400,150 460,95 520,150 590,115 660,150 730,100 800,150 860,120 900,150 900,195"
+    fill="#8fc46a"/>
+
+  <!-- front mountain range (darker green, closer) -->
+  <polygon points="0,195 0,170 90,120 180,170 260,140 340,170 430,150 460,170 520,145 600,170 680,130 760,170 840,150 900,170 900,195"
+    fill="#5a9a48"/>
+
+  <!-- grass foreground -->
+  <rect x="0" y="195" width="900" height="25" fill="#4f8f3d"/>
+  <g fill="#3f7a2f">
+    <rect x="4" y="196" width="3" height="8"/><rect x="14" y="198" width="3" height="6"/><rect x="26" y="196" width="3" height="8"/><rect x="38" y="199" width="3" height="5"/>
+    <rect x="50" y="196" width="3" height="8"/><rect x="62" y="198" width="3" height="6"/><rect x="74" y="196" width="3" height="8"/><rect x="86" y="199" width="3" height="5"/>
+    <rect x="98" y="196" width="3" height="8"/><rect x="110" y="198" width="3" height="6"/><rect x="122" y="196" width="3" height="8"/><rect x="134" y="199" width="3" height="5"/>
+    <rect x="146" y="196" width="3" height="8"/><rect x="158" y="198" width="3" height="6"/><rect x="170" y="196" width="3" height="8"/><rect x="182" y="199" width="3" height="5"/>
+    <rect x="194" y="196" width="3" height="8"/><rect x="206" y="198" width="3" height="6"/><rect x="218" y="196" width="3" height="8"/><rect x="230" y="199" width="3" height="5"/>
+    <rect x="242" y="196" width="3" height="8"/><rect x="254" y="198" width="3" height="6"/><rect x="266" y="196" width="3" height="8"/><rect x="278" y="199" width="3" height="5"/>
+    <rect x="290" y="196" width="3" height="8"/><rect x="302" y="198" width="3" height="6"/><rect x="314" y="196" width="3" height="8"/><rect x="326" y="199" width="3" height="5"/>
+    <rect x="338" y="196" width="3" height="8"/><rect x="350" y="198" width="3" height="6"/><rect x="362" y="196" width="3" height="8"/><rect x="374" y="199" width="3" height="5"/>
+    <rect x="386" y="196" width="3" height="8"/><rect x="398" y="198" width="3" height="6"/><rect x="410" y="196" width="3" height="8"/><rect x="422" y="199" width="3" height="5"/>
+    <rect x="434" y="196" width="3" height="8"/><rect x="446" y="198" width="3" height="6"/><rect x="458" y="196" width="3" height="8"/><rect x="470" y="199" width="3" height="5"/>
+    <rect x="482" y="196" width="3" height="8"/><rect x="494" y="198" width="3" height="6"/><rect x="506" y="196" width="3" height="8"/><rect x="518" y="199" width="3" height="5"/>
+    <rect x="530" y="196" width="3" height="8"/><rect x="542" y="198" width="3" height="6"/><rect x="554" y="196" width="3" height="8"/><rect x="566" y="199" width="3" height="5"/>
+    <rect x="578" y="196" width="3" height="8"/><rect x="590" y="198" width="3" height="6"/><rect x="602" y="196" width="3" height="8"/><rect x="614" y="199" width="3" height="5"/>
+    <rect x="626" y="196" width="3" height="8"/><rect x="638" y="198" width="3" height="6"/><rect x="650" y="196" width="3" height="8"/><rect x="662" y="199" width="3" height="5"/>
+    <rect x="674" y="196" width="3" height="8"/><rect x="686" y="198" width="3" height="6"/><rect x="698" y="196" width="3" height="8"/><rect x="710" y="199" width="3" height="5"/>
+    <rect x="722" y="196" width="3" height="8"/><rect x="734" y="198" width="3" height="6"/><rect x="746" y="196" width="3" height="8"/><rect x="758" y="199" width="3" height="5"/>
+    <rect x="770" y="196" width="3" height="8"/><rect x="782" y="198" width="3" height="6"/><rect x="794" y="196" width="3" height="8"/><rect x="806" y="199" width="3" height="5"/>
+    <rect x="818" y="196" width="3" height="8"/><rect x="830" y="198" width="3" height="6"/><rect x="842" y="196" width="3" height="8"/><rect x="854" y="199" width="3" height="5"/>
+    <rect x="866" y="196" width="3" height="8"/><rect x="878" y="198" width="3" height="6"/><rect x="890" y="196" width="3" height="8"/>
+  </g>
+
+  <!-- title -->
+  <text x="450" y="40" font-family="'Courier New', monospace" font-size="28" font-weight="700" fill="#264a1f" text-anchor="middle" letter-spacing="2">HEY, I'M FATHUR</text>
+  <text x="450" y="66" font-family="'Courier New', monospace" font-size="13" fill="#2b5c22" text-anchor="middle" letter-spacing="1">&gt; DATA · AI · MACHINE LEARNING_<animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite"/></text>
+
+  <!-- pixel cat sprite, walks in steps across the grass -->
+  <g>
+    <animateMotion
+      path="M -60 155 L 960 155"
+      dur="12s"
+      calcMode="discrete"
+      keyPoints="0;0.033;0.067;0.1;0.133;0.167;0.2;0.233;0.267;0.3;0.333;0.367;0.4;0.433;0.467;0.5;0.533;0.567;0.6;0.633;0.667;0.7;0.733;0.767;0.8;0.833;0.867;0.9;0.933;0.967;1"
+      keyTimes="0;0.033;0.067;0.1;0.133;0.167;0.2;0.233;0.267;0.3;0.333;0.367;0.4;0.433;0.467;0.5;0.533;0.567;0.6;0.633;0.667;0.7;0.733;0.767;0.8;0.833;0.867;0.9;0.933;0.967;1"
+      repeatCount="indefinite"/>
+
+    <!-- body -->
+    <rect x="0" y="16" width="44" height="16" fill="#e8823c"/>
+    <rect x="6" y="12" width="32" height="6" fill="#e8823c"/>
+    <!-- stripes -->
+    <rect x="10" y="16" width="4" height="16" fill="#c96a2c"/>
+    <rect x="24" y="16" width="4" height="16" fill="#c96a2c"/>
+    <!-- head -->
+    <rect x="40" y="2" width="20" height="20" fill="#e8823c"/>
+    <!-- ears -->
+    <rect x="40" y="-6" width="6" height="8" fill="#e8823c"/>
+    <rect x="54" y="-6" width="6" height="8" fill="#e8823c"/>
+    <rect x="42" y="-4" width="3" height="4" fill="#ffd3b0"/>
+    <rect x="56" y="-4" width="3" height="4" fill="#ffd3b0"/>
+    <!-- face -->
+    <rect x="50" y="10" width="3" height="3" fill="#2b2b3d"/>
+    <rect x="56" y="14" width="4" height="4" fill="#fff3e6"/>
+    <rect x="58" y="16" width="2" height="2" fill="#ff9fb0"/>
+    <!-- tail (staircase) -->
+    <rect x="-6" y="12" width="6" height="6" fill="#e8823c"/>
+    <rect x="-12" y="6" width="6" height="6" fill="#e8823c"/>
+    <rect x="-16" y="0" width="6" height="6" fill="#e8823c"/>
+
+    <!-- legs frame A -->
+    <g>
+      <animate attributeName="opacity" values="1;0" calcMode="discrete" dur="0.5s" repeatCount="indefinite"/>
+      <rect x="6" y="32" width="6" height="8" fill="#c96a2c"/>
+      <rect x="30" y="32" width="6" height="6" fill="#c96a2c"/>
+    </g>
+    <!-- legs frame B -->
+    <g>
+      <animate attributeName="opacity" values="0;1" calcMode="discrete" dur="0.5s" repeatCount="indefinite"/>
+      <rect x="6" y="32" width="6" height="6" fill="#c96a2c"/>
+      <rect x="30" y="32" width="6" height="8" fill="#c96a2c"/>
+    </g>
+  </g>
+</svg>
